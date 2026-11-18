@@ -8,14 +8,14 @@
 // ========================================
 
 const site = {
-  name: "Sovoycars",
+  name: "Atlas Auto",
   phone: "+212 614 65 65 65",
   phoneHref: "tel:+212****6565",
   tangierPhone: "+212 656 14 14 14",
   tangierPhoneHref: "tel:+212****1414",
-  email: "contact@sovoy.co.ma",
+  email: "contact@atlasauto.ma",
   whatsapp: "https://wa.me/message/C3GK5PLGSPXHM1",
-  copyright: "©️ 2008 – 2026 Sovoycars. All Rights Reserved."
+  copyright: "©️ 2008 – 2026 Atlas Auto. All Rights Reserved."
 };
 
 const pickupLocations = [
