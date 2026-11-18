@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental in Morocco: Affordable & Trustworthy Options - Sovoycars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Sovoycars Home">
+        <svg class="logo-icon" viewBox="0 0 150 50" fill="none" aria-hidden="true">
+          <text x="0" y="35" font-family="Poppins, sans-serif" font-size="28" font-weight="700" fill="#e9242c">Sovoy</text>
+          <text x="85" y="35" font-family="Poppins, sans-serif" font-size="28" font-weight="700" fill="#212529">cars</text>
+        </svg>
+      </a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu" id="navMenu" role="menubar">
+          <li role="none"><a href="#hero" class="nav-link" role="menuitem">Home</a></li>
+          <li role="none"><a href="#locations" class="nav-link" role="menuitem">Locations</a></li>
+          <li role="none"><a href="#fleet" class="nav-link" role="menuitem">Fleet</a></li>
+          <li role="none"><a href="#faq" class="nav-link" role="menuitem">FAQ</a></li>
+          <li role="none"><a href="#help" class="nav-link" role="menuitem">Help</a></li>
+          <li role="none"><a href="#manage-booking" class="nav-link" role="menuitem">Manage Booking</a></li>
+        </ul>
+      </nav>
+      <div class="header-contact">
+        <a href="tel:+212614656565" class="phone">+212 614 65 65 65</a>
+        <a href="https://wa.me/message/C3GK5PLGSPXHM1" class="whatsapp" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO / COVER SECTION -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">Best Morocco Car Rental Deals in One Search</h1>
+        <p class="hero-subtitle">Compare prices, book instantly, drive away. No hidden fees. 24/7 support.</p>
+      </div>
+    </section>
+
+    <!-- INTRO / BOOKING SECTION -->
+    <section id="intro" class="intro-section" aria-labelledby="intro-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="intro-title" class="section-title">Start Your Journey</h2>
+          <p class="section-subtitle">Enter your trip details below to find the perfect car for your Morocco adventure.</        </div>
+        <form id="booking-form" class="booking-form" action="#booking-confirmation" method="get">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="pickup">Pickup Location</label>
+              <select id="pickup" name="pickup" required>
+                <option value="">Choose pickup location...</option>
+                <option value="Casablanca Airport Mohammed V (CMN)">Casablanca Airport Mohammed V (CMN)</option>
+                <option value="Casablanca Downtown">Casablanca Downtown</option>
+                <option value="Marrakesh Airport (RAK)">Marrakesh Airport (RAK)</option>
+                <option value="Rabat Airport (RBA)">Rabat Airport (RBA)</option>
+                <option value="Rabat Downtown">Rabat Downtown</option>
+                <option value="Tangier–Ibn Battouta Airport (TNG)">Tangier–Ibn Battouta Airport (TNG)</option>
+                <option value="Tangier Downtown">Tangier Downtown</option>
+                <option value="Agadir Airport (AGA)">Agadir Airport (AGA)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="dropoff">Different Drop-off?</label>
+              <select id="dropoff" name="dropoff">
+                <option value="">Same as pickup</option>
+                <option value="Casablanca Airport Mohammed V (CMN)">Casablanca Airport Mohammed V (CMN)</option>
+                <option value="Casablanca Downtown">Casablanca Downtown</option>
+                <option value="Marrakesh Airport (RAK)">Marrakesh Airport (RAK)</option>
+                <option value="Rabat Airport (RBA)">Rabat Airport (RBA)</option>
+                <option value="Rabat Downtown">Rabat Downtown</option>
+                <option value="Tangier–Ibn Battouta Airport (TNG)">Tangier–Ibn Battouta Airport (TNG)</option>
+                <option value="Tangier Downtown">Tangier Downtown</option>
+                <option value="Agadir Airport (AGA)">Agadir Airport (AGA)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="pickup-date">Pickup Date & Time</label>
+              <input type="datetime-local" id="pickup-date" name="pickup_date" required>
+            </div>
+            <div class="form-group">
+              <label for="dropoff-date">Drop-off Date & Time</label>
+              <input type="datetime-local" id="dropoff-date" name="dropoff_date" required>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large">START BOOKING</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- HOME PAGE CONTENT -->
+    <section id="home" class="page active" aria-labelledby="home-title">
+        <div class="container">
+          <h2 id="benefits-title" class="section-title">Why Choose Sovoycars?</h2>
+          <div class="benefits-grid">
+            <div class="benefit-card">
+              <div class="benefit-icon">🏆</div>
+              <h3>Competitive Rates & Discounts</h3>
+              <p>We offer competitive rates and exclusive deals to help you save on every rental.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon">🛡️</div>
+              <h3>Safe & Reliable Cars</h3>
+              <p>Recent models, fully serviced, with comprehensive insurance options included.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon">📍</div>
+              <h3>Flexible Pickup & Drop-off</h3>
+              <p>8 locations across Morocco. One-way rentals available between all cities.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon">🕐</div>
+              <h3>24/7 Customer Service</h3>
+              <p>Our team is available around the clock by phone, email, and WhatsApp.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon">⚡</div>
+              <h3>Easy Booking Process</h3>
+              <p>Book in minutes online. Instant confirmation with meeting point details.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-featured" aria-labelledby="featured-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="featured-title" class="section-title">Featured Cars</h2>
+            <a href="#fleet" class="btn btn-outline">View All Vehicles</a>
+          </div>
+          <div class="car-grid" id="featured-cars"></div>
+        </div>
+      </section>
+
+      <section class="section section-locations-preview" aria-labelledby="locations-preview-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="locations-preview-title" class="section-title">Popular Car Rental Locations</h2>
+            <a href="#locations" class="btn btn-outline">View All Locations</a>
+          </div>
+          <div class="location-grid" id="locations-preview"></div>
+        </div>
+      </section>
+
+      <section class="section section-why" aria-labelledby="why-title">
+        <div class="container">
+          <h2 id="why-title" class="section-title">Why Choose Sovoycars?</h2>
+          <div class="why-grid">
+            <div class="why-left">
+              <p>We specialize in Car Rental in Morocco. We have built a reputation for quality and professionalism, and we offer a variety of services to fit your needs. You might ask why we're different from other car rental companies.</p>
+              <p>As an experienced and resourceful company, we offer you a level of service and support that you will not find anywhere else.</p>
+              <p>We have a wide range of vehicles. You can choose whatever car you want and book it online. We got a lot of options, and you'll be able to find the best car for your trip.</p>
+              <p>Not only that, but the prices are low too. You can rent a compact vehicle for as low as 150 MAD per day. Or, if you're looking for something more comfortable, you can rent an SUV for as little as 300 MAD per day.</p>
+              <p>We understand that travel can be stressful, so we are always available to help our customers with anything they might need.</p>
+            </div>
+            <div class="why-right">
+              <p>When you book with us, you can expect great service. Our team is well-trained and experienced in providing excellent customer service. We have a 24/7 on-call service that will be there for you whenever you need them.</p>
+              <p>In addition to the benefits of booking with us, we also offer exclusive deals like discounts and coupons that will help you save money on your next car rental experience.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-reviews" aria-labelledby="reviews-title">
+        <div class="container">
+          <h2 id="reviews-title" class="section-title">What Our Customers Say</h2>
+          <div class="reviews-grid" id="reviews-grid"></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- LOCATIONS PAGE -->
+    <section id="locations" class="page" aria-labelledby="locations-title">
+      <div class="page-hero">
+        <div class="container">
+          <h1 id="locations-title">Car Rental Locations in Morocco</h1>
+          <p>Pick up your rental car at any of our 8 locations across Morocco. Airport and city center options available.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="location-grid" id="locations-grid"></div>
+      </div>
+    </section>
+
+    <!-- FLEET PAGE -->
+    <section id="fleet" class="page" aria-labelledby="fleet-title">
+      <div class="page-hero">
+        <div class="container">
+          <h1 id="fleet-title">Our Fleet</h1>
+          <p>Choose from 35+ vehicles across 11 categories. Economy, SUV, Luxury, Hybrid, and more.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="fleet-filters" id="fleet-filters" role="tablist" aria-label="Vehicle categories"></div>
+        <div class="car-grid" id="fleet-grid"></div>
+      </div>
+    </section>
+
+    <!-- FAQ PAGE -->
+    <section id="faq" class="page" aria-labelledby="faq-title">
+      <div class="page-hero">
+        <div class="container">
+          <h1 id="faq-title">Frequently Asked Questions</h1>
+          <p>Everything you need to know about renting a car with Sovoycars in Morocco.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="faq-categories" id="faq-categories" role="tablist" aria-label="FAQ categories"></div>
+        <div class="faq-list" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- HELP PAGE -->
+    <section id="help" class="page" aria-labelledby="help-title">
+      <div class="page-hero">
+        <div class="container">
+          <h1 id="help-title">Help & Support</h1>
+          <p>Need assistance? We're here to help 24/7.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="help-grid">
+          <div class="help-card">
+            <h3>📞 Contact Us</h3>
+            <p>Our team is available 24/7 by phone, email, and WhatsApp.</p>
+            <a href="tel:+212614656565" class="btn btn-primary">Call +212 614 65 65 65</a>
+            <a href="mailto:contact@sovoy.co.ma" class="btn btn-outline" style="margin-top: 8px;">Email Us</a>
+            <a href="https://wa.me/message/C3GK5PLGSPXHM1" class="btn btn-success" style="margin-top: 8px;" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="help-card">
+            <h3>📋 Manage Your Booking</h3>
+            <p>View, modify, or cancel your reservation using your email and reservation number.</p>
+            <a href="#booking" class="btn btn-primary">Manage Booking</a>
+          </div>
+          <div class="help-card">
+            <h3>📍 Find a Location</h3>
+            <p>8 pickup locations across Morocco including all major airports and city centers.</p>
+            <a href="#locations" class="btn btn-outline">View Locations</a>
+          </div>
+          <div class="help-card">
+            <h3>❓ Browse FAQ</h3>
+            <p>Find quick answers to common questions about rentals, insurance, policies, and more.</p>
+            <a href="#faq" class="btn btn-outline">View FAQ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING CONFIRMATION PAGE (new booking flow) -->
+    <section id="booking-confirmation" class="page" aria-labelledby="booking-confirmation-title">
+      <div class="page-hero">
+        <div class="container">
+          <h1 id="booking-confirmation-title">Confirm Your Booking</h1>
+          <p>Review your booking details and proceed to payment.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="booking-summary" id="booking-summary">
+          <!-- Populated by JS from URL params -->
+        </div>
+        <div class="booking-actions">
+          <a href="#home" class="btn btn-outline">Modify Search</a>
+          <button class="btn btn-primary btn-large" id="proceed-payment">Proceed to Payment</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANAGE BOOKING PAGE (existing bookings) -->
+    <section id="manage-booking" class="page" aria-labelledby="manage-booking-title">
+      <div class="page-hero">
+        <div class="container">
+          <h1 id="manage-booking-title">Manage Your Booking</h1>
+          <p>Enter your email and reservation number to view, modify, or cancel your booking.</p>
+        </div>
+      </div>
+      <div class="container">
+        <form class="manage-form" id="manage-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="manage-email">Email Address</label>
+              <input type="email" id="manage-email" name="email" required placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="manage-reservation">Reservation Number</label>
+              <input type="text" id="manage-reservation" name="reservation" required placeholder="SOV-123456">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large">FIND MY BOOKING</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo footer-logo" aria-label="Sovoycars Home">
+            <svg viewBox="0 0 150 50" fill="none" aria-hidden="true">
+              <text x="0" y="35" font-family="Poppins, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Sovoy</text>
+              <text x="85" y="35" font-family="Poppins, sans-serif" font-size="28" font-weight="700" fill="#f0d000">cars</text>
+            </svg>
+          </a>
+          <p>Your trusted car rental partner in Morocco since 2008. Quality vehicles, transparent pricing, 24/7 support.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#fleet">Our Fleet</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#help">Help</a></li>
+            <li><a href="#manage-booking">Manage Booking</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Locations</h4>
+          <ul>
+            <li><a href="#locations">Casablanca Airport (CMN)</a></li>
+            <li><a href="#locations">Marrakesh Airport (RAK)</a></li>
+            <li><a href="#locations">Rabat Airport (RBA)</a></li>
+            <li><a href="#locations">Tangier Airport (TNG)</a></li>
+            <li><a href="#locations">Agadir Airport (AGA)</a></li>
+            <li><a href="#locations">City Centers</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="tel:+212614656565">+212 614 65 65 65</a></li>
+            <li><a href="mailto:contact@sovoy.co.ma">contact@sovoy.co.ma</a></li>
+            <li><a href="https://wa.me/message/C3GK5PLGSPXHM1" target="_blank" rel="noopener">WhatsApp Support</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>©️ 2008 – 2026 Sovoycars. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js?v=8"></script>
+</body>
+</html>

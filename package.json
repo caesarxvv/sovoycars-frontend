@@ -1,0 +1,11 @@
+{
+  "name": "sovoycars-recreation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static recreation of the Sovoycars car rental website",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "npx serve dist"
+  }
+}
